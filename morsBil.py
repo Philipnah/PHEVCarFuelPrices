@@ -10,5 +10,7 @@ elPrice = float(input("El pris (kr/kWh): "))
 pricePerKMgas = gasPrice/KMperL
 pricePerKMElectric = elPrice/KMperkW
 
-print("\n-----------------------------\nBenzin: " + str(pricePerKMgas) + " kr/km")
-print("El: " + str(pricePerKMElectric) + " kr/km\n-----------------------------\n")
+print("\n-----------------------------")
+print("Benzin: " + str(pricePerKMgas) + " kr/km")
+print("El: " + str(pricePerKMElectric) + " kr/km")
+print("-----------------------------\n")
